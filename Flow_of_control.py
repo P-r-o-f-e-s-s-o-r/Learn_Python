@@ -94,5 +94,13 @@ for b in range(1,10):
         print(b)
 '''
 #PRIME NUMBER 
-
+'''
 num = int(input("Enter Your Number"))
+lim = int(num/2)+1
+for i in range(2,lim):
+    rem = num%i
+    if (rem==0):
+        print(num,"Is not a Prime Number")
+    else:
+        print("Its a Prime Number")
+'''
