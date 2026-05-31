@@ -9,3 +9,36 @@ else:
     print("Invalid")
 '''
 
+#patter Print without Nested loop
+'''
+for i in range (5):
+    print("#"*i) 
+'''
+
+#STRING SLICING 
+'''
+w = "amazing"
+
+print(w[2:])
+print(w[:2])
+print(w[4:]+w[:4])
+print(w[:4]+w[4:])
+print(w[-5:-1])
+print(w[1:6:2])
+print(w[-7:-3:3])
+print(w[::-2])
+print(w[::-1])
+'''
+
+#RESULT
+'''
+azing
+am
+ingamaz
+amazing
+azin
+mzn
+az
+giaa
+gnizama
+'''
