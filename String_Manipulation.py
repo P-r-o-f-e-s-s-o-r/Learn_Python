@@ -42,3 +42,20 @@ az
 giaa
 gnizama
 '''
+
+#PALINDROME
+'''
+st_n = int(input("Enter the Number: "))
+st_s= input("Enter the Word: ")
+
+num = str(st_n)
+if (num == num[::-1]):
+    print(st_n , "Is a Palindrom")
+else:
+    print(st_n,"Its Not a Palindrom")
+
+if (st_s == st_s[::-1]):
+    print(st_s , "Is a Palindrom")
+else:
+    print(st_s,"Its Not a Palindrom")
+'''
