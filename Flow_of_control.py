@@ -129,3 +129,26 @@ for i in range(no):      # Changed to loop exactly 'no' times
     g = num//math.pow(10,no-1)  #GET FIRST DIGIT 
 
 '''
+'''
+#FIND LOWEST NUMBER AND SECOND LOWEST NUMBER FORM THE INPUT OF 10
+min = 0
+min_2 = 0
+for i in range(10):
+    no = int(input("Enter the Number : "))
+    if (i == 0):
+        min = no
+    elif (i==1):
+        if(no<=min):
+            min_2 = no
+        else:
+            min_2=min
+            min = no
+    else:
+        if (no<min_2):
+            min = min_2
+            min_2=no
+        elif(no<min):
+            min = no
+print("The lowest is :",min)
+print("The Second lowest is :",min_2)
+'''
