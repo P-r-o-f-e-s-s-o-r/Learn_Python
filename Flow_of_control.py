@@ -69,7 +69,7 @@ import random
 print("="*8,"GUESS THE NUMBER","="*8)
 num = random.randrange(10,50)
 
-for life in range(5,0,-1):
+for life in range(5,-1,-1):
     cho = int(input("Enter the Guessed Number: "))
     print("You Have ",life,"life")
     if(cho == num ):
@@ -114,7 +114,11 @@ no = len(str(num))
 for i in range(1,no):
     k = num%10
     print(k)
+'''
+'''
 #GPT
+import math 
+
 num = int(input("Enter The Input : "))
 no = len(str(num))
 
@@ -122,4 +126,6 @@ for i in range(no):      # Changed to loop exactly 'no' times
     k = num % 10         # Get the last digit
     print(k)             # Print the digit
     num = num // 10      # Remove the last digit from 'num'
+    g = num//math.pow(10,no-1)  #GET FIRST DIGIT 
+
 '''
