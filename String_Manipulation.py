@@ -59,3 +59,40 @@ if (st_s == st_s[::-1]):
 else:
     print(st_s,"Its Not a Palindrom")
 '''
+
+#Split Func
+'''
+k = "I Will Become a Billionaire"
+d = k.split()
+m = k.split("o")
+
+print(k)
+print(d)
+print(m)
+'''
+
+#FIND No of uppercase , lowercase , digit , space in a word
+'''
+
+line = input("Enter the Line: ")
+c_up = c_lo = 0
+c_d = c_s = 0
+
+# Iterate through each character in the string one by one
+for char in line:
+    if char.isupper():
+        c_up += 1
+    elif char.islower():
+        c_lo += 1
+    elif char.isdigit():
+        c_d += 1
+    elif char.isspace():
+        c_s += 1
+
+print("The Number of Uppercase :", c_up)
+print("The Number of Lowercase :", c_lo) # Fixed to print c_lo
+print("The Number of Digit :", c_d)
+print("The Number of Space :", c_s)
+'''
+
+ 
