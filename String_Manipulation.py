@@ -94,5 +94,3 @@ print("The Number of Lowercase :", c_lo) # Fixed to print c_lo
 print("The Number of Digit :", c_d)
 print("The Number of Space :", c_s)
 '''
-
- 
