@@ -65,8 +65,9 @@ for i in range(len(L)):
     else:
         print("The Element you searched is not in the Given lisSt")
 '''
-
+'''
 #FREQUENCY FINDER OF NUMBERS
 L = eval(input("Enter the Number : "))
 num = int(input("Enter the Number : "))
 print("The Number of occurance of ",num,"in list is : ",L.count(num))
+'''
