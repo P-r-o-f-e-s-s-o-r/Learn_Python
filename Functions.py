@@ -99,7 +99,7 @@ outter()
 print("the global value of pg is:",y)
 '''
  
-
+'''
 #VIST ONCE AGAIN
 def Lshif(Arr,n):
     for i in range(len(Arr)):
@@ -110,4 +110,4 @@ def main():
     ar = [10,20,30,40,12,11]
     num = int(input("Enter the Spacing Number : "))
     Lshif(ar,num)
-main()
+main()'''
