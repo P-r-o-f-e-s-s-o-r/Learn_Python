@@ -28,3 +28,8 @@ print(arra.nbytes) #No of Elements [Result = 24 (3*8)] [no of elements * (bytes/
 arra = np.array([1,2,3],dtype = np.str_) #STRING
 print(arra)
 '''
+#OBJ DTYPE
+arra = np.array([1,2,"Launch"],dtype = np.object_)
+print(arra)
+print(arra.dtype)
+print(arra.nbytes) #No of Elements [Result = 24 (3*8)] [no of elements * (bytes/8)]
