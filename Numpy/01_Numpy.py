@@ -50,6 +50,8 @@ print(array)
 print(array.dtype)
 print(array.nbytes)'''
 
+
+'''
 #===========================================================
  #Prints dimention (single dot - 0D) , (Two connected Dots - 1D) , (Square - 2D) , (Cube - 3D),(Treseract - 4D)
 array_1 = np.array(1)
@@ -78,3 +80,7 @@ print(array_4.shape) #(layers , rows , columns)
 #RESHAPE
 print(array_2.reshape(2,3)) #Change the Shape of Array
 print(array_2.reshape(3,-1)) #Columns will get automaticlly saturated
+
+#SLICING
+print(array_4[1:3])
+'''
