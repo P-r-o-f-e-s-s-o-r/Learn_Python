@@ -30,8 +30,8 @@ def delete_students(n):
             L_age.pop(i)
             L_dept.pop(i)
 
-while True:
-    def main ():
+def main ():
+    while True :
         print("*"*12,"RECORD MANAGER","*"*12)
         print("Your Options (Choose one) :")
         print(" "*5,"1. ADD a Student")
@@ -55,4 +55,4 @@ while True:
             print("Exiting......")
             print("Exited Successfully")
             break
-    main()
+main()
