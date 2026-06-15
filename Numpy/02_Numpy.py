@@ -1,4 +1,5 @@
 import numpy as np
+import os
 '''
 #ARITHEMETIC
 arr = np.array([25,26,5,2])
@@ -116,3 +117,4 @@ rng = np.random.default_rng(seed = 1) #Generate same Random number
 print(rng.integers(1,31)) #randome from 0 to 30
 print(rng.integers(1,31,size = 5)) # Generate 5 Random Numebrs
 '''
+print(os.getcwd())
