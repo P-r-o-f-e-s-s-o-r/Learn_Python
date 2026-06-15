@@ -58,7 +58,7 @@ print(arr)
 arr = np.eye(3)
 print(arr)
 '''
-
+'''
 arr = np.arange(0,100,15) # start,stop,step
 print(arr)
 arr = np.linspace(0,100,6)
@@ -84,3 +84,4 @@ brr =np.array([[1,2,3],
                [4,5,6]])
 print(np.sum(brr))
 print(np.sum(brr,axis=1))
+'''
