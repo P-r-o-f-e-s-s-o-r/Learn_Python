@@ -107,6 +107,7 @@ print(even)
 '''
 
 #RANDOM Number generation
+'''
 rng = np.random.default_rng()
 print(rng.integers(1,31)) #randome from 0 to 30
 print(rng.integers(1,31,size = 5)) # Generate 5 Random Numebrs
@@ -114,3 +115,4 @@ print(rng.integers(1,31,size = 5)) # Generate 5 Random Numebrs
 rng = np.random.default_rng(seed = 1) #Generate same Random number
 print(rng.integers(1,31)) #randome from 0 to 30
 print(rng.integers(1,31,size = 5)) # Generate 5 Random Numebrs
+'''
