@@ -33,8 +33,17 @@ print(series[series>18])
 
 #DATAFRAME
 
+#/////////////////////////////////////////////
+
 students = {
     "Name" : ["Goms","Siva","Code io"],
     "Age" : [25,22,5],
     "CGPA" : [8.5,10,5]
 }
+
+df = pd.DataFrame(students,index=["std1","std2","std3"])
+print(df)
+
+print(df.loc["std1"])
+print(df.iloc["std1"])
+#/////////////////////////////////////////////
