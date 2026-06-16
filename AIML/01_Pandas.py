@@ -53,4 +53,10 @@ print(df)
 std4 = pd.DataFrame({"Name" : ["Undefined"] , "Age": [2] , "CGPA" : [10] } , index = ["std 4"]) #ROW Creation
 df = pd.concat([df,std4])
 print(df)
+
+info = pd.DataFrame([{"Name" : "Gokul" , "Age": 20 , "CGPA" : 10.1},
+                     {"Name" : "Mukesh" , "Age": 369 , "CGPA" : 19.0},
+                     {"Name" : "Giri" , "Age": 19, "CGPA" : 5.6}] , index = ["Std 5","Std 6","Std 7"])
+df = pd.concat([df,info])
+print(df)
 #/////////////////////////////////////////////
