@@ -42,8 +42,11 @@ students = {
 }
 
 df = pd.DataFrame(students,index=["std1","std2","std3"])
-print(df)
-
+#print(df)
+'''
 print(df.loc["std1"])
 print(df.iloc["std1"])
+'''
+df["Medium"] = ["English","Tamil","Telugu"] #ADDING NEW COLUMN
+print(df)
 #/////////////////////////////////////////////
