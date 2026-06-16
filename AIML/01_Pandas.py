@@ -41,12 +41,16 @@ students = {
     "CGPA" : [8.5,10,5]
 }
 
-df = pd.DataFrame(students,index=["std1","std2","std3"])
+df = pd.DataFrame(students,index=["std 1","std 2","std 3"])
 #print(df)
 '''
 print(df.loc["std1"])
 print(df.iloc["std1"])
 '''
 df["Medium"] = ["English","Tamil","Telugu"] #ADDING NEW COLUMN
+print(df)
+
+std4 = pd.DataFrame({"Name" : ["Undefined"] , "Age": [2] , "CGPA" : [10] } , index = ["std 4"]) #ROW Creation
+df = pd.concat([df,std4])
 print(df)
 #/////////////////////////////////////////////
