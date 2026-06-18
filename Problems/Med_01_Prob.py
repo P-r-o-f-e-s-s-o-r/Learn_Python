@@ -2,7 +2,7 @@
 #Build a program that analyzes marks of students and generates a report.
 
 import numpy as np
-students = [1,2,3,4]
+students = []
 marks = list(students[1:])
 
 def stu_details(no):
@@ -11,7 +11,7 @@ def stu_details(no):
         m1 = int(input("Enter the Sub 1 Mark : "))
         m2 = int(input("Enter the Sub 1 Mark : "))
         m3 = int(input("Enter the Sub 1 Mark : "))
-        Data = [Name,m1,m2,m3]
+        Data = [Name.lower(),m1,m2,m3]
         students.append(Data)
 
 def calculate_average(marks):
@@ -32,6 +32,15 @@ def find_grade(avg):
     else:
         grade = 0
     return grade
+
+def generate_report():
+    grade = find_grade()
+    avg = calculate_average()
+    for i in range(len(students)):
+        print("Name"," "*4,"Average"," "*4,"Grade")
+        print("-"*20)
+        print(students[i][0]," "*4,avg," "*4,grade)
+
 
 def main():
     while True:
@@ -68,7 +77,7 @@ def main():
             if(len(students) == 0):
                 print("First add student Details ")
             else:
-                generate_report(students)
+                generate_report()
                 print("Calculation of Avg is Completed...")
                 print("Exiting....")
                 break
@@ -76,3 +85,5 @@ def main():
             print("Analyse is Completed...")
             print("Exiting....")
             break
+
+main()
