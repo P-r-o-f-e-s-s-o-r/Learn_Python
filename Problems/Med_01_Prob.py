@@ -14,6 +14,25 @@ def stu_details(no):
         Data = [Name,m1,m2,m3]
         students.append(Data)
 
+def calculate_average(marks):
+    o_avg = np.array(marks)
+    avg = np.mean(o_avg)
+    return avg
+def find_grade(avg):
+    if (avg>90):
+        grade = "A"
+    elif (avg>80 and avg<90):
+        grade = "B"
+    elif (avg>70 and avg<80):
+        grade = "C"
+    elif (avg>60 and avg<70):
+        grade = "D"
+    elif (avg<60):
+        grade = "F"
+    else:
+        grade = 0
+    return grade
+
 def main():
     while True:
         print("*"*5,"STUDENTS PERFORMANCE ANALYZER","*"*5)
@@ -30,7 +49,8 @@ def main():
             if(len(students) == 0):
                 print("First add student Details ")
             else:
-                calculate_average()
+                avg = calculate_average(marks)
+                print("The Average is : ",avg)
                 print("Calculation of Avg is Completed...")
                 print("Exiting....")
                 break
@@ -38,8 +58,10 @@ def main():
             if(len(students) == 0):
                 print("First add student Details ")
             else:
-                find_grade()
-                print("Calculation of Avg is Completed...")
+                avg = calculate_average()
+                grade = find_grade(avg)
+                print("The Grade is : ",grade)
+                print("Finding grade is Completed...")
                 print("Exiting....")
                 break
         if (cho == 4):
