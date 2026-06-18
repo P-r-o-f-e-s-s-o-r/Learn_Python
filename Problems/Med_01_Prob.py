@@ -1,6 +1,8 @@
 #STUDENTS PERFORMANCE ANLYZER
 #Build a program that analyzes marks of students and generates a report.
 
+#MY VERSION 
+'''
 import numpy as np
 students = []
 marks = list(students[1:])
@@ -85,5 +87,135 @@ def main():
             print("Analyse is Completed...")
             print("Exiting....")
             break
+
+main()
+'''
+
+#CHATGPT VERSION
+# STUDENTS PERFORMANCE ANALYZER
+
+students = []
+
+
+def stu_details(no):
+    for i in range(no):
+        print(f"\nStudent {i + 1}")
+
+        name = input("Enter the Name of the Student : ")
+
+        m1 = int(input("Enter the Sub 1 Mark : "))
+        m2 = int(input("Enter the Sub 2 Mark : "))
+        m3 = int(input("Enter the Sub 3 Mark : "))
+
+        students.append([name, m1, m2, m3])
+
+    print("\nStudent details added successfully.")
+
+
+def calculate_average(marks):
+    return sum(marks) / len(marks)
+
+
+def find_grade(avg):
+    if avg >= 90:
+        return "A"
+    elif avg >= 80:
+        return "B"
+    elif avg >= 70:
+        return "C"
+    elif avg >= 60:
+        return "D"
+    else:
+        return "F"
+
+
+def generate_report():
+    print("\n" + "-" * 40)
+    print(f"{'Name':<15}{'Average':<10}{'Grade'}")
+    print("-" * 40)
+
+    for student in students:
+        name = student[0]
+        marks = student[1:]
+
+        avg = calculate_average(marks)
+        grade = find_grade(avg)
+
+        print(f"{name:<15}{avg:<10.2f}{grade}")
+
+    print("-" * 40)
+
+
+def main():
+    while True:
+        print("\n" + "*" * 10, "STUDENTS PERFORMANCE ANALYZER", "*" * 10)
+        print("1. Add Student Details")
+        print("2. Calculate Average Marks")
+        print("3. Find Grade")
+        print("4. Generate Report")
+        print("5. Exit")
+
+        try:
+            choice = int(input("Enter the Choice : "))
+        except ValueError:
+            print("Please enter a valid number.")
+            continue
+
+        if choice == 1:
+            no = int(input("Enter The Number Of Students : "))
+            stu_details(no)
+
+        elif choice == 2:
+            if len(students) == 0:
+                print("First add student details.")
+            else:
+                name = input("Enter Student Name : ").lower()
+
+                found = False
+
+                for student in students:
+                    if student[0].lower() == name:
+                        avg = calculate_average(student[1:])
+                        print(f"Average Marks of {student[0]} = {avg:.2f}")
+                        found = True
+                        break
+
+                if not found:
+                    print("Student not found.")
+
+        elif choice == 3:
+            if len(students) == 0:
+                print("First add student details.")
+            else:
+                name = input("Enter Student Name : ").lower()
+
+                found = False
+
+                for student in students:
+                    if student[0].lower() == name:
+                        avg = calculate_average(student[1:])
+                        grade = find_grade(avg)
+
+                        print(f"Grade of {student[0]} = {grade}")
+                        found = True
+                        break
+
+                if not found:
+                    print("Student not found.")
+
+        elif choice == 4:
+            if len(students) == 0:
+                print("First add student details.")
+            else:
+                generate_report()
+
+        elif choice == 5:
+            print("Analysis Completed...")
+            print("Exiting...")
+            break
+
+        else:
+            print("Invalid Choice. Try Again.")
+
 
 main()
