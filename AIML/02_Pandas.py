@@ -17,4 +17,3 @@ df = df.dropna(subset = ["first_name"]) #Whereever NaN is present it will delete
 print(df)
 df["last_name"] = df["last_name"].replace({"Johnson":"john","Brown" : "B"})  # Replace of Particular variable in column
 print(df.loc[2])
-
