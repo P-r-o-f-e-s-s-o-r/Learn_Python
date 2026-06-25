@@ -15,3 +15,30 @@ a = np.array([1, 2])
 b = np.array([3, 4])
 concatenated = np.reshape(np.concatenate((a, b)),(2,2))
 print(concatenated)
+
+#MATH FUNCTIONS
+
+array = np.array([1, 2, 3])
+total = np.sum(array) 
+print(total)
+
+
+mean_value = np.mean(array)  
+print(mean_value)
+
+
+max_val = np.max(array) 
+min_val = np.min(array) 
+print(max_val)
+print(min_val)
+
+
+sqrt_array = np.sqrt(array)
+print(sqrt_array)
+
+#SLICING
+import numpy as np
+subset = array[1:3]  
+print(subset)
+
+#SEARCH AND SORT
