@@ -42,3 +42,28 @@ subset = array[1:3]
 print(subset)
 
 #SEARCH AND SORT
+import numpy as np
+sorted_array = np.sort(np.array([3, 1, 2]))
+print(sorted_array)
+
+import numpy as np
+indices = np.argsort(np.array([3, 1, 2]))
+print(indices)
+
+import numpy as np
+array = np.array([1, 2, 3, 4])
+indices = np.where(array > 2)  
+print(indices)
+
+
+
+
+
+
+
+
+
+
+
+
+
