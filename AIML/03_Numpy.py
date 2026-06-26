@@ -50,6 +50,7 @@ import numpy as np
 indices = np.argsort(np.array([3, 1, 2]))
 print(indices)
 
+
 import numpy as np
 array = np.array([1, 2, 3, 4])
 indices = np.where(array > 2)  
