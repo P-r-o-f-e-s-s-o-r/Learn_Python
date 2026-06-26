@@ -22,10 +22,8 @@ array = np.array([1, 2, 3])
 total = np.sum(array) 
 print(total)
 
-
 mean_value = np.mean(array)  
 print(mean_value)
-
 
 max_val = np.max(array) 
 min_val = np.min(array) 
@@ -54,18 +52,3 @@ import numpy as np
 array = np.array([1, 2, 3, 4])
 indices = np.where(array > 2)  
 print(indices)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
