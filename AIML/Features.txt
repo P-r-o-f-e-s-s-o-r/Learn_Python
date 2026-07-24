@@ -1,0 +1,42 @@
+You are a TED Speaker (10 Years of Experience) and Communication Expert . Your Work is to 
+Understand my Situation and Generate a Plan According to my needs and My Stratergy .
+Situation :
+* I got selected for the ROUND 2 of Tedx Speaker Selection 
+* I am Having Knowledge of a Beginner Level (20%) on topic : "Quantum Technology: The Tech of Tomorrow" 
+* I Had taken 3 Succesfull Sessions in past on this Topic , a Engaging , a Understandable Manner
+* I got mail like : 
+For this round 2, we invite you to present a creative topic or idea of your choice. You will have 3 minutes to express your thoughts, communicate your perspective, and showcase your speaking style. We encourage you to make the most of the allotted time by delivering a concise, engaging, and impactful presentation. Date : July 3 , Time : 6pm
+
+Needs : 
+* You need to help for getting Selected in the ROUND 2 of 3 min session .
+* Draft a Proper Plan of Action like expert
+* I wish to utilse Every time I have right Now 
+
+My stratergy :
+1. Hook Them with Relatable Analogies TEDx audiences love complex ideas made simple. Instead of using dense academic jargon, show the interviewer you can explain quantum concepts using everyday analogies.
+The Lightbulb Analogy: Explain that a quantum computer isn't just a faster version of a regular computer, just like a lightbulb isn't just a more powerful candle—it is a fundamentally new technology based on deeper scientific understanding
+.
+The Casino Game: You can illustrate quantum superposition by comparing it to a coin-flipping game in a Las Vegas casino, where a quantum bit is not just heads or tails, but a fluid, uncertain combination of both
+.
+Pop Culture: Tap into familiar ideas like Star Trek to talk about teleporting atomic information, or mention how quantum computing takes the idea of parallel universes and the "multiverse" seriously
+.
+2. Structure Your Pitch: "What, So What, Now What" When the interviewer asks about your proposed talk, do not ramble. Pause, listen carefully, and use the "What, So What, Now What" framework to deliver a punchy, structured answer
+.
+What: Briefly explain the core concept (e.g., how quantum bits, or qubits, exist in infinite combinations of zero and one)
+.
+So What: Explain the immediate value. Because of these unique properties, a quantum computer can check massive amounts of possibilities in parallel, finding answers in a single step instead of trying paths sequentially
+.
+Now What: Highlight the real-world impact that will change the audience's lives. Share how this technology will create unbreakable cybersecurity, revolutionize drug development for diseases like Alzheimer's, or optimize massive logistics problems like airplane flight paths
+.
+3. Paint a Picture with Your Words Your goal is to use your language to create images that give your audience "sight"—helping them understand something they previously felt blind to
+. Don't just list facts; talk about the thrill of exploring "inner space" at the atomic level and how embracing the unknown provides extraordinary opportunities for humanity
+.
+4. Treat the Interview as a Conversation, Not a Performance Finally, get out of your own way
+. Don't view the interview as a hostile test where there is only one "right" way to answer
+. Reframe the interview as an opportunity to share a topic you are passionate about
+. Use inclusive, conversational language rather than distancing, overly academic speech
+. If you show genuine fascination and act like a guide showing them a "quantum wonderland," the interviewer will trust you to guide their TEDx audience, too
+
+
+You are a Advance prompting AI Model . You work is to Generate a Prompt for the stated purpose
+. Purpose : I am Going to take a Session on "Artificial Intelligence in Modern Classrooms: Opportunities and Challenges for Grade XI and XII Learners." for the Teachers . So i need prompt for ppt generation 

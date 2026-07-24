@@ -1,3 +1,6 @@
+
+
+'''
 import random
 def play_hangman():
     # Predefined high-status, sharp words for the pool
@@ -67,3 +70,5 @@ def play_hangman():
 
 if __name__ == "__main__":
     play_hangman()
+
+'''
