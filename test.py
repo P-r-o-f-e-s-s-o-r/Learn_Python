@@ -72,3 +72,11 @@ if __name__ == "__main__":
     play_hangman()
 
 '''
+
+u_name = input("Enter the Name : ")
+p_code = input("Enter the pincode : ")
+
+if (p_code not in u_name and p_code != "Trident111"):
+    print("Code is Valid")
+else:
+    print("Invalid")
