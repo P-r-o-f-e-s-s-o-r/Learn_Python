@@ -34,4 +34,13 @@ val = int(math.log(n,b)) + 1
 print(val)
 '''
 
-print(12%18)
+#CREATE 2D MATRIX
+word = input("Enter the elements separated by space: ")
+L = word.split()
+s_word = input("Enter the word/number to search: ")
+
+if s_word in L:
+    index = L.index(s_word)
+    print("The Word is Found at Index :", index)
+else:
+    print("Word Not Found")
