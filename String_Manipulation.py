@@ -3,7 +3,7 @@
 U_name = input("Enter the User Name : ")
 pcoode = input("Enter the PASSWORD: ")
 
-if (pcoode not in U_name and pcoode == "Trident111"):
+if (pcoode not in U_name and pcoode != "Trident111"):
     print("Code is Valid")
 else:
     print("Invalid")

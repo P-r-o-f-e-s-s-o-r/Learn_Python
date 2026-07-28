@@ -33,7 +33,7 @@ for i in range (1,5+1):
 print("="*10,"PATTERN A.2","="*10)
 
 #INPUT:
-for i in range (1,5+1):
+for i in range (1,5+1): # type: ignore
     for j in range (1,5+1):
         print(j,end="")
     print(" ")
